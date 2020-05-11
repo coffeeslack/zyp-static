@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zyp</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/singlePackage.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- ==========
+    ===============        
+        NAVBAR
+    ===============        
+     ===========-->
+    <div class="navBar">
+      <div class="navLogo">
+        <a href="index.html" class="btnLink">ZYP</a>
+      </div>
+      <nav class="navMenu d-none d-md-flex">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Why zyp?</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li  class="active"><a href="contact.html">Buzz us</a></li>
+          <li>
+            <a href="packages.html" class="mainBtn packageBtn">Packages</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- MOBILE MENU -->
+      <div class="d-md-none menuIcon">
+        <img
+          src="./images/icon_menu.svg"
+          onclick="document.getElementById('mobileSideNav').style.display='flex'"
+        />
+      </div>
+      <div class="mobileSideNav" id="mobileSideNav">
+        <div
+          class="navBlind"
+          onclick="document.getElementById('mobileSideNav').style.display='none'"
+        ></div>
+        <nav class="navMenuMobile d-lg-none shadow-lg" id="navMenuMobile">
+          <ul>
+            <li class="closeBtn">
+              <img
+                src="./images/icon_close.svg"
+                onclick="document.getElementById('mobileSideNav').style.display='none'"
+              />
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Why zyp?</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li  class="active"><a href="contact.html">Buzz us</a></li>
+            <li>
+              <a href="packages.html" class="mainBtn packageBtn">Packages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        BANNER
+    ===============        
+     ===========-->
+    <div class="banner bannerSmall">
+      <div class="bannerText d-flex align-items-center justify-content-center flex-column" style="width: 100%;">
+        Buzz Us
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        BODY
+    ===============        
+     ===========-->
+     <div class="section packageSectionBody row mt-4">
+        <div class="col-lg-3 col-md-6 p-5 text-center border mt-3 mt-lg-0 d-flex align-items-center justify-content-center flex-column" style="height: 150px;">
+          <div class="font-weight-bold">Address</div>
+          <div class="pt-2">
+            No 5 Unknown street, Unknown State
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-5 text-center border mt-3 mt-lg-0 d-flex align-items-center justify-content-center flex-column" style="height: 150px;">
+          <div class="font-weight-bold">Phone</div>
+          <div class="pt-2">
+            +234 705 3312 248
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-5 text-center border mt-3 mt-lg-0 d-flex align-items-center justify-content-center flex-column" style="height: 150px;">
+          <div class="font-weight-bold">Email</div>
+          <div class="pt-2">
+            info@iamikoni.com
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-5 text-center border mt-3 mt-lg-0 d-flex align-items-center justify-content-center flex-column" style="height: 150px;">
+          <div class="font-weight-bold">Working Hours</div>
+          <div class="pt-2">
+            Monday - Friday<br>8:0 0AM - 6:00 PM
+          </div>
+        </div>
+        <form class="contactForm mt-5" style="width: 100%;">
+            <div class="text-center">
+                <div class="sectionTitle mb-3 mb-lg-5 mt-lg-4" style="text-align: center; width: 100%;">Get In Touch</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mt-3 mt-lg-0">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="col-lg-4 mt-3 mt-lg-0">
+                    <input type="text" placeholder="Your Email" required>
+                </div>
+                <div class="col-lg-4 mt-3 mt-lg-0">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="col-lg-12 mt-4">
+                    <textarea placeholder="Message" style="height: 100px;"></textarea>
+                    <div class="text-center mt-4">
+                        <button class="mainBtn">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+  <!-- ==========
+    ===============        
+        NEWS LETTER
+    ===============        
+     ===========-->
+     <div class="section greyBackground newsletterSection">
+      <div class="newsletterLabel">
+        <div class="newsletterLabelHead">SIGNUP</div>
+        <div class="newsletterLabelSub">TO OUR NEWSLETTER</div>
+      </div>
+      <form class="newsletterForm">
+        <input type="email" placeholder="Your e-mail" required />
+        <button>Submit</button>
+      </form>
+    </div>
+    <!-- ==========
+    ===============        
+        CONTACT SECTION
+    ===============        
+     ===========-->
+     <div class="section greenBackground homeContactSection">
+        <div class="contactSectionHead">Let's talk</div>
+      <div class="contactSectionBody">
+        <div>We're always down for a chat, so get in touch to find out how we can be of help.</div>
+        <a href="contact.html" class="subBtn">Start Here &#10141</a>
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        FOOTER
+    ===============        
+     ===========-->
+     <div class="section footer">
+      <div class="footerMenu">
+        <div class="footerLogo d-md-none d-flex">ZYP</div>
+          <ul >
+            <li><a href="about.html">Why zyp</a></li>
+            <li><a href="contact.html">Buzz us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <div class="footerLogo d-none d-md-flex"><a href="index.html" class="btnLink">ZYP</a></div>
+          <ul >
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+      </div>
+      <div class="footerSocial">
+        <a href="#" class="social">
+          <img src="images/social_instagram.svg" alt="instagram" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_facebook.svg" alt="facebook" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_twitter.svg" alt="twitter" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_youtube.svg" alt="YouTube" />
+        </a>
+      </div>
+      <div class="copyright">&copy 2020 Havilah & Hills. All rights reserved</div>
+  </div>
+  </body>
+</html>

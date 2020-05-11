@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zyp</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- ==========
+    ===============        
+        NAVBAR
+    ===============        
+     ===========-->
+    <div class="navBar">
+      <div class="navLogo">
+        <a href="index.html" class="btnLink">ZYP</a>
+      </div>
+      <nav class="navMenu d-none d-md-flex">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Why zyp?</a></li>
+          <li  class="active"><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Buzz us</a></li>
+          <li>
+            <a href="packages.html" class="mainBtn packageBtn">Packages</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- MOBILE MENU -->
+      <div class="d-md-none menuIcon">
+        <img
+          src="./images/icon_menu.svg"
+          onclick="document.getElementById('mobileSideNav').style.display='flex'"
+        />
+      </div>
+      <div class="mobileSideNav" id="mobileSideNav">
+        <div
+          class="navBlind"
+          onclick="document.getElementById('mobileSideNav').style.display='none'"
+        ></div>
+        <nav class="navMenuMobile d-lg-none shadow-lg" id="navMenuMobile">
+          <ul>
+            <li class="closeBtn">
+              <img
+                src="./images/icon_close.svg"
+                onclick="document.getElementById('mobileSideNav').style.display='none'"
+              />
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Why zyp?</a></li>
+            <li  class="active"><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Buzz us</a></li>
+            <li>
+              <a href="packages.html" class="mainBtn packageBtn">Packages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        BANNER
+    ===============        
+     ===========-->
+    <div class="banner bannerSmall">
+      <div class="bannerText d-flex align-items-center justify-content-center flex-column" style="width: 100%;">
+        Blog
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        BODY
+    ===============        
+     ===========-->
+     <div class="section blogSection row d-flex align-items-center justify-content-center" style="width: 100%; margin: 0;">
+        <!-- BLOG CARD -->
+         <div class="col-lg-4 col-md-6 mb-5">
+            <div class="blogCard">
+                <div class="blogImage">
+                    <img src="images/3.png" />
+                </div>
+                <div class="blogContentWrapper">
+                    <div class="blogDate">13th April, 2020</div>
+                    <a href="single-blog.html" class="blogTitle btnLink">Web design for beginners</a>
+                    <div class="blogContent">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BLOG CARD -->
+        <div class="col-lg-4 col-md-6 mb-5">
+            <div class="blogCard">
+                <div class="blogImage">
+                    <img src="images/week.jpg" />
+                </div>
+                <div class="blogContentWrapper">
+                    <div class="blogDate">13th April, 2020</div>
+                    <a href="single-blog.html" class="blogTitle btnLink">Empathy In Designs</a>
+                    <div class="blogContent">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </div>
+                </div>
+                <!-- <a href="#" class="mainBtn blogBtn">Read more</a> -->
+            </div>
+        </div>
+        <!-- BLOG CARD -->
+        <div class="col-lg-4 col-md-6 mb-5">
+            <div class="blogCard">
+                <div class="blogImage">
+                    <img src="images/Web-Design-Blog-Image.jpg" />
+                </div>
+                <div class="blogContentWrapper">
+                    <div class="blogDate">13th April, 2020</div>
+                    <a href="single-blog.html" class="blogTitle btnLink">How to make beautiful illustrations</a>
+                    <div class="blogContent">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- BLOG CARD -->
+        <div class="col-lg-4 col-md-6 mb-5">
+            <div class="blogCard">
+                <div class="blogImage">
+                    <img src="images/graphic-logo-designing.jpg" />
+                </div>
+                <div class="blogContentWrapper">
+                    <div class="blogDate">13th April, 2020</div>
+                    <a href="single-blog.html" class="blogTitle btnLink">101 Graphic design secrets</a>
+                    <div class="blogContent">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BLOG CARD -->
+        <div class="col-lg-4 col-md-6 mb-5">
+            <div class="blogCard">
+                <div class="blogImage">
+                    <img src="images/images (4).jpeg" />
+                </div>
+                <div class="blogContentWrapper">
+                    <div class="blogDate">13th April, 2020</div>
+                    <a href="single-blog.html" class="blogTitle btnLink">Having a great color mindset</a>
+                    <div class="blogContent">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BLOG CARD -->
+         <div class="col-lg-4 col-md-6 mb-5">
+            <div class="blogCard">
+                <div class="blogImage">
+                    <img src="images/285.jpg" />
+                </div>
+                <div class="blogContentWrapper">
+                    <div class="blogDate">13th April, 2020</div>
+                    <a href="single-blog.html" class="blogTitle btnLink">Benefits of proper business planning</a>
+                    <div class="blogContent">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PAGE BUTTONS -->
+      <div class="pageButtons d-flex align-items-center justify-content-center mt-5 mb-5" style="width: 100%;">
+        <a href="#" class="mainBtn m-2">Prev Page</a>
+        <a href="#" class="mainBtn m-2">Next Page</a>
+      </div>
+    </div>
+  <!-- ==========
+    ===============        
+        NEWS LETTER
+    ===============        
+     ===========-->
+     <div class="section greyBackground newsletterSection">
+      <div class="newsletterLabel">
+        <div class="newsletterLabelHead">SIGNUP</div>
+        <div class="newsletterLabelSub">TO OUR NEWSLETTER</div>
+      </div>
+      <form class="newsletterForm">
+        <input type="email" placeholder="Your e-mail" required />
+        <button>Submit</button>
+      </form>
+    </div>
+    <!-- ==========
+    ===============        
+        CONTACT SECTION
+    ===============        
+     ===========-->
+     <div class="section greenBackground homeContactSection">
+        <div class="contactSectionHead">Let's talk</div>
+      <div class="contactSectionBody">
+        <div>We're always down for a chat, so get in touch to find out how we can be of help.</div>
+        <a href="contact.html" class="subBtn">Start Here &#10141</a>
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        FOOTER
+    ===============        
+     ===========-->
+     <div class="section footer">
+      <div class="footerMenu">
+        <div class="footerLogo d-md-none d-flex">ZYP</div>
+          <ul >
+            <li><a href="about.html">Why zyp</a></li>
+            <li><a href="contact.html">Buzz us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <div class="footerLogo d-none d-md-flex"><a href="index.html" class="btnLink">ZYP</a></div>
+          <ul >
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+      </div>
+      <div class="footerSocial">
+        <a href="#" class="social">
+          <img src="images/social_instagram.svg" alt="instagram" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_facebook.svg" alt="facebook" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_twitter.svg" alt="twitter" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_youtube.svg" alt="YouTube" />
+        </a>
+      </div>
+      <div class="copyright">&copy 2020 Havilah & Hills. All rights reserved</div>
+  </div>
+  </body>
+</html>

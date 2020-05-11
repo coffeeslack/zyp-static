@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zyp</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/singlePackage.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- ==========
+    ===============        
+        NAVBAR
+    ===============        
+     ===========-->
+    <div class="navBar">
+      <div class="navLogo">
+        <a href="index.html" class="btnLink">ZYP</a>
+      </div>
+      <nav class="navMenu d-none d-md-flex">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Why zyp?</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Buzz us</a></li>
+          <li>
+            <a href="packages.html" class="mainBtn packageBtn">Packages</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- MOBILE MENU -->
+      <div class="d-md-none menuIcon">
+        <img
+          src="./images/icon_menu.svg"
+          onclick="document.getElementById('mobileSideNav').style.display='flex'"
+        />
+      </div>
+      <div class="mobileSideNav" id="mobileSideNav">
+        <div
+          class="navBlind"
+          onclick="document.getElementById('mobileSideNav').style.display='none'"
+        ></div>
+        <nav class="navMenuMobile d-lg-none shadow-lg" id="navMenuMobile">
+          <ul>
+            <li class="closeBtn">
+              <img
+                src="./images/icon_close.svg"
+                onclick="document.getElementById('mobileSideNav').style.display='none'"
+              />
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Why zyp?</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Buzz us</a></li>
+            <li>
+              <a href="packages.html" class="mainBtn packageBtn">Packages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        BODY
+    ===============        
+     ===========-->
+     <div class="section checkoutSection row">
+         <!-- PAYMENT FORM -->
+         <div class="col-lg-7 paymentForm">
+             <div class="sectionSubHead">select payment method</div>
+             <div class="bottomBorder"></div>
+             <div class="paymentTypes row">
+                <div class="col-md-4">
+                    <input type="radio" id="inputType1" name="paymentType" value="creditCard" checked>
+                        <label for="inputType1">
+                            <div class="paymentType" >Credit Card</div>
+                        </label>
+                    </input>
+                </div>
+                <div class="col-md-4">
+                    <input type="radio" name="paymentType" value="creditCard" id="inputType2">
+                        <label for="inputType2">
+                            <div class="paymentType" >Bank Transfer</div>
+                        </label>
+                    </input>
+                </div>
+                <div class="col-md-4">
+                    <input type="radio" name="paymentType" value="creditCard" id="inputType3">
+                        <label for="inputType3">
+                            <div class="paymentType" >Paystack</div>
+                        </label>
+                    </input>
+                </div>
+            </div>
+             <form class="paymentUserDetails">
+                <div class="inputRow">
+                    <div class="inputLabel sectionSubHead greyText" >name on card</div>
+                    <input type="text" required />
+                </div>
+                <div class="inputRow">
+                    <div class="inputLabel sectionSubHead greyText" >card number</div>
+                    <input type="text" required />
+                </div>
+                <div class="inputRow row">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="inputLabel sectionSubHead greyText" >month</div>
+                        <input type="number" required />
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="inputLabel sectionSubHead greyText" >year</div>
+                        <input type="number" required />
+                    </div>
+                    <div class="col-md-4">
+                        <div class="inputLabel sectionSubHead greyText" >cvv</div>
+                        <input type="number" required />
+                    </div>
+                </div>
+             </form>
+        </div>
+        <!-- ORDER SUMMARY -->
+        <div class="col-lg-5 mt-5 mt-lg-0 orderSummarySection row">
+            <div class="orderSummaryContainer col-12">
+                <div class="orderSummary">
+                <div class="sectionSubHead">order summary</div>
+                <div class="bottomBorder"></div>
+                <div class="summaryPackageName">
+                    <div class="sectionSubHead greyText">Graphics Lite</div>
+                    <div class="sectionSubHead greyText">N50K</div>
+                </div>
+                <div class="summaryPackageDescription">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam.
+                </div>
+                </div>
+                <div class="orderSummaryDate">
+                    <div class="sectionSubHead greyText">Tuesday</div>
+                    <div class="greyText mt-2">April 28, 2020 | 2:00AM</div>
+                </div>
+            </div>
+            <a href="#" class="purchaseBtn mainBtn col-12">
+                purchase now
+            </a>
+        </div>
+    </div>
+  <!-- ==========
+    ===============        
+        NEWS LETTER
+    ===============        
+     ===========-->
+     <div class="section greyBackground newsletterSection">
+      <div class="newsletterLabel">
+        <div class="newsletterLabelHead">SIGNUP</div>
+        <div class="newsletterLabelSub">TO OUR NEWSLETTER</div>
+      </div>
+      <form class="newsletterForm">
+        <input type="email" placeholder="Your e-mail" required />
+        <button>Submit</button>
+      </form>
+    </div>
+    <!-- ==========
+    ===============        
+        CONTACT SECTION
+    ===============        
+     ===========-->
+     <div class="section greenBackground homeContactSection">
+        <div class="contactSectionHead">Let's talk</div>
+      <div class="contactSectionBody">
+        <div>We're always down for a chat, so get in touch to find out how we can be of help.</div>
+        <a href="contact.html" class="subBtn">Start Here &#10141</a>
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        FOOTER
+    ===============        
+     ===========-->
+     <div class="section footer">
+      <div class="footerMenu">
+        <div class="footerLogo d-md-none d-flex">ZYP</div>
+          <ul >
+            <li><a href="about.html">Why zyp</a></li>
+            <li><a href="contact.html">Buzz us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <div class="footerLogo d-none d-md-flex"><a href="index.html" class="btnLink">ZYP</a></div>
+          <ul >
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+      </div>
+      <div class="footerSocial">
+        <a href="#" class="social">
+          <img src="images/social_instagram.svg" alt="instagram" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_facebook.svg" alt="facebook" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_twitter.svg" alt="twitter" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_youtube.svg" alt="YouTube" />
+        </a>
+      </div>
+      <div class="copyright">&copy 2020 Havilah & Hills. All rights reserved</div>
+  </div>
+  </body>
+</html>

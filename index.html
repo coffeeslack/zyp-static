@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zyp</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- ==========
+    ===============        
+        NAVBAR
+    ===============        
+     ===========-->
+    <div class="navBar">
+      <div class="navLogo">
+        <a href="index.html" class="btnLink">ZYP</a>
+      </div>
+      <nav class="navMenu d-none d-md-flex">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">Why zyp?</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Buzz us</a></li>
+          <li>
+            <a href="packages.html" class="mainBtn packageBtn">Packages</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- MOBILE MENU -->
+      <div class="d-md-none menuIcon">
+        <img
+          src="./images/icon_menu.svg"
+          onclick="document.getElementById('mobileSideNav').style.display='flex'"
+        />
+      </div>
+      <div class="mobileSideNav" id="mobileSideNav">
+        <div
+          class="navBlind"
+          onclick="document.getElementById('mobileSideNav').style.display='none'"
+        ></div>
+        <nav class="navMenuMobile d-lg-none shadow-lg" id="navMenuMobile">
+          <ul>
+            <li class="closeBtn">
+              <img
+                src="./images/icon_close.svg"
+                onclick="document.getElementById('mobileSideNav').style.display='none'"
+              />
+            </li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">Why zyp?</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Buzz us</a></li>
+            <li>
+              <a href="packages.html" class="mainBtn packageBtn">Packages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        BANNER
+    ===============        
+     ===========-->
+    <div class="banner">
+      <div class="bannerText">
+        When you need fast creative solutions to grow your business.
+        <div class="bannerBtn"><a href="#" class="subBtn">Start Here &#10141</a></div>
+      </div>
+      <img src="images/Asset 1hero_rocket.svg" class="bannerRocket" />
+    </div>
+    <!-- ==========
+    ===============        
+        FEATURED PACKAGES
+    ===============        
+     ===========-->
+     <div class="section packagesSection">
+        <div class="sectionHead">
+          <div class="sectionTitle">Focus on you business, let's handle your design</div>
+          <div class="sectionMenu">
+            <ul class="menu">
+              <li><a href="#">zyp graphics</a></li>
+              <li><a href="#">zyp social</a></li>
+              <li><a href="#">zyp campaign</a></li>
+              <li><a href="#">zyp quest</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sectionSubHead text-center text-md-left mt-5">Featured Packages</div>
+        <div class="row packageCardContainer mt-5">
+          <!-- PACKAGE CARD -->
+          <div class=" col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="packageCard text-center p-5">
+              <div class="cardHead">
+                <div class="cardTitle">Social Lite</div>
+                <div class="cardSubTitle">Social Lite Pack</div>
+              </div>
+              <div class="packagePrice">
+                <div class="packagePriceTag">N50K</div>
+                <a href="single-package.html" class="packageBuyBtn mainBtn">Buy Now</a>
+              </div>
+              <div class="packageDetails">
+                <div class="packageDetail">Social Media Pack</div>
+                <div class="packageDetail">Instagram</div>
+                <div class="packageDetail">Facebook</div>
+                <div class="packageDetail">Twitter</div>
+                <div class="packageDetail">YouTube</div>
+                <div class="packageDetail">LinkedIn</div>
+                <div class="packageDetail">Blog</div>
+                <div class="packageDetail">Two revisions</div>
+                <div class="packageDetail">Real Time Support</div>
+              </div>
+              <div class="packageLearnMoreBtn">
+                <a href="single-package.html" class="btnLink">Learn More</a>
+              </div>
+          </div>
+        </div>
+           <!-- PACKAGE CARD END-->
+            <!-- PACKAGE CARD -->
+          <div class=" col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="packageCard text-center p-5">
+                <div class="cardHead">
+                  <div class="cardTitle">Web Lite</div>
+                  <div class="cardSubTitle">Web Lite Pack</div>
+                </div>
+                <div class="packagePrice">
+                  <div class="packagePriceTag">N150K</div>
+                  <a href="single-package.html" class="packageBuyBtn mainBtn">Buy Now</a>
+                </div>
+                <div class="packageDetails">
+                  <div class="packageDetail">Social Media Pack</div>
+                  <div class="packageDetail">Instagram</div>
+                  <div class="packageDetail">Facebook</div>
+                  <div class="packageDetail">Twitter</div>
+                  <div class="packageDetail">YouTube</div>
+                  <div class="packageDetail">LinkedIn</div>
+                  <div class="packageDetail">Blog</div>
+                  <div class="packageDetail">Two revisions</div>
+                  <div class="packageDetail">Real Time Support</div>
+                </div>
+                <div class="packageLearnMoreBtn">
+                  <a href="single-package.html" class="btnLink">Learn More</a>
+                </div>
+            </div>
+          </div>
+             <!-- PACKAGE CARD END-->
+              <!-- PACKAGE CARD -->
+          <div class=" col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="packageCard text-center p-5">
+                <div class="cardHead">
+                  <div class="cardTitle">GFX Lite</div>
+                  <div class="cardSubTitle">Graphics Lite Pack</div>
+                </div>
+                <div class="packagePrice">
+                  <div class="packagePriceTag">N80K</div>
+                  <a href="single-package.html" class="packageBuyBtn mainBtn">Buy Now</a>
+                </div>
+                <div class="packageDetails">
+                  <div class="packageDetail">Social Media Pack</div>
+                  <div class="packageDetail">Instagram</div>
+                  <div class="packageDetail">Facebook</div>
+                  <div class="packageDetail">Twitter</div>
+                  <div class="packageDetail">YouTube</div>
+                  <div class="packageDetail">LinkedIn</div>
+                  <div class="packageDetail">Blog</div>
+                  <div class="packageDetail">Two revisions</div>
+                  <div class="packageDetail">Real Time Support</div>
+                </div>
+                <div class="packageLearnMoreBtn">
+                  <a href="single-package.html" class="btnLink">Learn More</a>
+                </div>
+            </div>
+          </div>
+             <!-- PACKAGE CARD END-->
+              <!-- PACKAGE CARD -->
+          <div class=" col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="packageCard text-center p-5">
+                <div class="cardHead">
+                  <div class="cardTitle">Web Lite</div>
+                  <div class="cardSubTitle">Web Lite Pack</div>
+                </div>
+                <div class="packagePrice">
+                  <div class="packagePriceTag">N50K</div>
+                  <a href="single-package.html" class="packageBuyBtn mainBtn">Buy Now</a>
+                </div>
+                <div class="packageDetails">
+                  <div class="packageDetail">Social Media Pack</div>
+                  <div class="packageDetail">Instagram</div>
+                  <div class="packageDetail">Facebook</div>
+                  <div class="packageDetail">Twitter</div>
+                  <div class="packageDetail">YouTube</div>
+                  <div class="packageDetail">LinkedIn</div>
+                  <div class="packageDetail">Blog</div>
+                  <div class="packageDetail">Two revisions</div>
+                  <div class="packageDetail">Real Time Support</div>
+                </div>
+                <div class="packageLearnMoreBtn">
+                  <a href="single-package.html" class="btnLink">Learn More</a>
+                </div>
+            </div>
+          </div>
+             <!-- PACKAGE CARD END-->
+        </div>
+     </div>
+      <!-- ==========
+    ===============        
+        WHY ZIP
+    ===============        
+     ===========-->
+     <div class="section blueBackground text-white whyZypSection">
+         <div class="sectionTitleFont">Why zyp?</div>
+       <div class="sectionContentFont">Delightful first <strong>impressions</strong> are what we create differently.</div>
+     </div>
+       <!-- ==========
+    ===============        
+        SERVICES
+    ===============        
+     ===========-->
+     <div class="section serviceSection">
+      <div class="row">
+        <!-- SERVICE -->
+        <div class="col-lg-4 col-md-6 text-center serviceContainer">
+          <div class="serviceImg">
+            <img src="images/ecommerce_wallet.svg" alt="wallet" />
+          </div>
+          <div class="serviceText">Most affordable, value-based, straightforward pricing.</div>
+        </div>
+        <!-- SERVICE -->
+        <div class="col-lg-4 col-md-6 text-center serviceContainer">
+          <div class="serviceImg">
+            <img src="images/star.svg" alt="star" />
+          </div>
+          <div class="serviceText">Star rated world class on time delivery.</div>
+        </div>
+        <!-- SERVICE -->
+        <div class="col-lg-4 col-md-6 text-center serviceContainer">
+          <div class="serviceImg">
+            <img src="images/diamond.svg" alt="diamond" />
+          </div>
+          <div class="serviceText">Premium and excellent after service customer support.</div>
+        </div>
+      </div>
+  </div>
+  <!-- ==========
+    ===============        
+        NEWS LETTER
+    ===============        
+     ===========-->
+     <div class="section greyBackground newsletterSection">
+      <div class="newsletterLabel">
+        <div class="newsletterLabelHead">SIGNUP</div>
+        <div class="newsletterLabelSub">TO OUR NEWSLETTER</div>
+      </div>
+      <form class="newsletterForm">
+        <input type="email" placeholder="Your e-mail" required />
+        <button>Submit</button>
+      </form>
+    </div>
+    <!-- ==========
+    ===============        
+        CONTACT SECTION
+    ===============        
+     ===========-->
+     <div class="section greenBackground homeContactSection">
+        <div class="contactSectionHead">Let's talk</div>
+      <div class="contactSectionBody">
+        <div>We're always down for a chat, so get in touch to find out how we can be of help.</div>
+        <a href="contact.html" class="subBtn">Start Here &#10141</a>
+      </div>
+    </div>
+    <!-- ==========
+    ===============        
+        FOOTER
+    ===============        
+     ===========-->
+     <div class="section footer">
+      <div class="footerMenu">
+        <div class="footerLogo d-md-none d-flex">ZYP</div>
+          <ul >
+            <li><a href="about.html">Why zyp</a></li>
+            <li><a href="contact.html">Buzz us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <div class="footerLogo d-none d-md-flex"><a href="index.html" class="btnLink">ZYP</a></div>
+          <ul >
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+      </div>
+      <div class="footerSocial">
+        <a href="#" class="social">
+          <img src="images/social_instagram.svg" alt="instagram" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_facebook.svg" alt="facebook" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_twitter.svg" alt="twitter" />
+        </a>
+        <a href="#" class="social">
+          <img src="images/social_youtube.svg" alt="YouTube" />
+        </a>
+      </div>
+      <div class="copyright">&copy 2020 Havilah & Hills. All rights reserved</div>
+  </div>
+  </body>
+</html>
